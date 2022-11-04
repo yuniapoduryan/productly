@@ -1,0 +1,79 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+    body {
+        font-family: 'Montserrat';
+        padding: 0 120px;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 17px 0;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    a {
+        color: #2F281E;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    a:hover {
+        color: #FF9900;
+    }
+    
+    nav {
+        display: flex;
+        gap: 16px;
+    }
+    
+    button {
+        padding: 13px 23px;
+        font-family: 'Montserrat';
+        min-width: 110px;
+        border-radius: 4px;
+        font-size: 20px;
+    }
+    
+    #sign_in {
+        border: 1px solid #BCD0E5;
+        background: transparent;
+        font-weight: 600;
+    }
+    
+    #sign_up {
+        background: #FF9900;
+        font-weight: 600;
+        color: #ffffff;
+        border: none;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: row;
+        margin: 70px auto 0 auto;
+        width: 1200px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    #getstarted {
+        background-color: #FF9900;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        border: none;
+        color: #ffffff;
+    }
+    
+    #text {
+        flex: 1;
+    }
+    
+    .image {
+        flex: 1;
+        min-width: 644px;
+    }
